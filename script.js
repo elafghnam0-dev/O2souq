@@ -81,8 +81,7 @@ const products = [
         id: 1,
         name: "مساعد امامي شمال",
         price: "1220",
-        desc: ".مساعد امامي شمال اصلي vectra b"
-        img: "images/filter.jpg"
+        desc: ".مساعد امامي شمال اصليvectra b"
     },
     {
     
@@ -90,6 +89,5 @@ const products = [
         name: "طقم تيل فرامل شيفروليه لانوس",
         price: "350",
         desc: "تيل فرامل أمامي عالي الجودة.",
-        img: "images/brake.jpg"
     }
 ];
