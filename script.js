@@ -79,9 +79,9 @@ function removeItem(i) {
 const products = [
     {
         id: 1,
-        name: "فلتر زيت أوبل أسترا",
-        price: "220",
-        desc: "فلتر زيت أصلي لأوبل أسترا جميع الموديلات.",
+        name: "مساعد امامي شمال",
+        price: "1220",
+        desc: ".مساعد امامي شمال اصلي vectra b"
         img: "images/filter.jpg"
     },
     {
