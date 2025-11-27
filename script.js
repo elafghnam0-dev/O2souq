@@ -1,19 +1,3 @@
-const products = [
-    {
-        id: 1,
-        name: "فلتر زيت أوبل أسترا",
-        price: "220 جنيه",
-        desc: "فلتر زيت أصلي لأوبل أسترا جميع الموديلات.",
-        img: "images/filter.jpg"
-    },
-    {
-        id: 2,
-        name: "طقم تيل فرامل شيفروليه لانوس",
-        price: "350 جنيه",
-        desc: "تيل فرامل أمامي عالي الجودة.",
-        img: "images/brake.jpg"
-    }
-];
 
 function loadProducts() {
     const container = document.getElementById("productsList");
@@ -91,3 +75,21 @@ function removeItem(i) {
     localStorage.setItem("cart", JSON.stringify(cart));
     loadCart();
 }
+ 
+const products = [
+    {
+        id: 1,
+        name: "فلتر زيت أوبل أسترا",
+        price: "220",
+        desc: "فلتر زيت أصلي لأوبل أسترا جميع الموديلات.",
+        img: "images/filter.jpg"
+    },
+    {
+    
+        id: 2,
+        name: "طقم تيل فرامل شيفروليه لانوس",
+        price: "350",
+        desc: "تيل فرامل أمامي عالي الجودة.",
+        img: "images/brake.jpg"
+    }
+];
